@@ -9,7 +9,7 @@ import org.jbehave.core.annotations.When;
 
 import shop.aut.Calculator;
 
-public final class OrderStep {
+public final class OrderSteps {
     
     private Calculator calculator = new Calculator();
 

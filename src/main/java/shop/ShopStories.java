@@ -43,7 +43,7 @@ import org.jbehave.core.steps.ParameterConverters.NumberConverter;
 import org.jbehave.core.steps.ParameterConverters.ParameterConverter;
 
 import shop.steps.LifecycleSteps;
-import shop.steps.OrderStep;
+import shop.steps.OrderSteps;
 
 public final class ShopStories extends JUnitStories {
 
@@ -129,7 +129,7 @@ public final class ShopStories extends JUnitStories {
      */
     @Override
     public InjectableStepsFactory stepsFactory() {
-        return new InstanceStepsFactory(configuration(), new LifecycleSteps(), new OrderStep());
+        return new InstanceStepsFactory(configuration(), new LifecycleSteps(), new OrderSteps());
     }
 
     /* 
