@@ -1,6 +1,10 @@
 Bei Bestellungen muss geprüft werden, ob Rabatte gelten.
 Ausserdem werden bei einem hohen Warenwert keine Versandkosten berechnet.
 
+!-- Falls die Story in Eclipse nicht richtig dargestellt wird:
+!-- 1. JBehave-Eclipse-Plugin runterladen.
+!-- 2. Im Plugin Sprache auf Deutsch stellen.
+
 Meta:
 @Komponente Bestellung
 @Anforderung OOS-1859
@@ -29,10 +33,11 @@ Dann betragen die Versandkosten 0 Euro
 Und ist der Bestellwert 200 Euro
 
 Szenario: Rabattgrenzen werden erreicht
-!--TODO: Gesamtbestellwert könnte auch noch geprüft werden.
+!-- FIXME: Mit JBehave 4.0-beta-7 gibt es bei der Ausführung dieses Szenarios noch ein Problem.
 Wenn ein Kunde <Anzahl> T-Shirts bestellt
 Dann gilt eine Ermässigung von <Rabatt> Prozent
 Und kostet ein T-Shirt pro Stück <Preis> Euro
+!-- TODO: Gesamtbestellwert könnte auch noch geprüft werden.
 Beispiele:
 |------|----- |-----|
 |Anzahl|Rabatt|Preis|
