@@ -1,0 +1,4 @@
+Um JBehave per Maven starten zu können, muss in Eclipse
+das JDK und nicht die JRE konfiguriert sein:
+
+Window > Preferences > Java > Installed JREs
