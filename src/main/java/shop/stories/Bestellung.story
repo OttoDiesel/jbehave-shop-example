@@ -33,7 +33,6 @@ Dann betragen die Versandkosten 0 Euro
 Und ist der Bestellwert 200 Euro
 
 Szenario: Rabattgrenzen werden erreicht
-!-- FIXME: Mit JBehave 4.0-beta-7 gibt es bei der Ausführung dieses Szenarios noch ein Problem.
 Wenn ein Kunde <Anzahl> T-Shirts bestellt
 Dann gilt eine Ermässigung von <Rabatt> Prozent
 Und kostet ein T-Shirt pro Stück <Preis> Euro

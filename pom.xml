@@ -10,7 +10,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- version properties -->
-        <jbehave.core.version>4.0-beta-7</jbehave.core.version>
+        <jbehave.core.version>4.0-beta-8</jbehave.core.version>
         <jbehave.site.version>3.2</jbehave.site.version>
         <guava.version>15.0</guava.version>
         <xstream.version>1.4.4</xstream.version>
