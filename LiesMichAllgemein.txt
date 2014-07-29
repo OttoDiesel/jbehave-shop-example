@@ -1,0 +1,3 @@
+Dieses Beispiel-Projekt bezieht sich auf den ersten Teil der Artikelserie über JBehave im Javamagazin 2014.
+
+Die Beispiele für den zweiten Teil können den Link https://github.com/OttoDiesel/jbehave-selenium-example.git geklont werden.
